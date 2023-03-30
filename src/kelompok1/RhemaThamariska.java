@@ -9,8 +9,7 @@ package kelompok1;
  * @author ASUS
  */
 public class RhemaThamariska { 
-    //methods//
-    void rhema(){
+    public static void main(String[] args) {
         System.out.println("HALO AKU REMA");
     }
 }
