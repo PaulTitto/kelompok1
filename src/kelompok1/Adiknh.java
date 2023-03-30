@@ -11,10 +11,19 @@ package kelompok1;
 public class Adiknh {
     
  //methods void
-    public static void main(String[] args) {
-        System.out.println("my name is : ");
-    }
- 
-}
+     //atributes
+        int angka1;
+        int angka2;
+  
     
-
+        //methods
+        void calculatePerkalian(){
+            int perkalian = this.angka1 * this.angka2;
+            System.out.println("the reselut is : ");
+        }
+        
+    public static void main(String[] args){
+    
+    }
+    
+}
