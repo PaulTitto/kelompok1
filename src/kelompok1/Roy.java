@@ -9,5 +9,9 @@ package kelompok1;
  * @author ASUS
  */
 public class Roy {
-    
+   public static void main(String[] args) {
+        System.out.println("Hello, World!"); 
+    }
 }
+   
+
