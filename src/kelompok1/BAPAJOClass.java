@@ -1,5 +1,7 @@
+package kelompok1;
+
 public class BAPAJOClass {
     public static void main(String[] args){
-        System.out.printIn(x: "BAPAJO")
+        System.out.println("BAPAJO");
     }
 }
