@@ -8,22 +8,31 @@ package kelompok1;
  *
  * @author ASUS
  */
-public class Adiknh {
+public class Adik {
     
  //methods void
-     //atributes
+        //atributes
         int angka1;
         int angka2;
-  
-    
+        
+        Adik (int a, int b){
+        this.angka1 = a;
+        this.angka2 = b;
+        }
+        
+        
         //methods
         void calculatePerkalian(){
             int perkalian = this.angka1 * this.angka2;
-            System.out.println("the reselut is : ");
+            System.out.println("Hasilnya adalah : " );
+ 
         }
         
     public static void main(String[] args){
-    
+        Adik Z = new Adik (5, 15);
+        Z.calculatePerkalian();
+        System.out.println("Hasilnya adalah : " );
     }
+    
     
 }
